@@ -1,0 +1,22 @@
+Egy rádióállomás lejátszási listáját kapod meg a megalapítása óta. 
+A lejátszási lista összesen n dalt tartalmaz. 
+Mi a leghosszabb egymást követő dalokból álló sorozat, ahol minden dal egyedi? 
+
+Bemenet:
+Az első bemeneti sor egy egész számot tartalmaz, n: a dalok száma. 
+A következő sorban n egész szám található, k1,k2,...,kn: minden dal azonosító száma. 
+
+Kimenet:
+Nyomtasd ki a leghosszabb egyedi dalokat tartalmazó sorozat hosszát. 
+
+Feltételek
+
+1 < n < 2*10^5 
+1 < ki < 10^9
+
+Példa: 
+Bemenet: 
+8 
+1 2 1 3 2 7 4 2
+
+Kimenet: 5
