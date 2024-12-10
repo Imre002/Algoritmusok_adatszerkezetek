@@ -1,0 +1,28 @@
+n darab koncertjegy kapható, mindegyik bizonyos áron. Aztán m ügyfél érkezik egymás után.
+Minden vásárló bejelenti, hogy mekkora maximális árat hajlandó fizetni egy jegyért, 
+majd ezt követően a lehető legközelebbi árú jegyet kapja, amely nem haladja meg a maximális árat.
+
+Bemenet
+Az első beviteli sor n és m egész számokat tartalmaz: a jegyek számát és a vásárlók számát.
+A következő sor n egész számot tartalmaz h_1,h_2,...,h_n: minden jegy ára.
+Az utolsó sor m egész számot tartalmaz t_1,t_2,...,t_m: az egyes vásárlók maximális ára a beérkezési sorrendben.
+
+Kimenet
+Nyomtassa ki minden vásárlónak azt az árat, amelyet a jegyéért fizetni kell. Ezt követően a jegy nem vásárolható újra.
+Ha az ügyfél nem kap jegyet, nyomtasson -1.
+
+Korlátozások
+
+1 <= n, m <= 2*10^5
+1 <= h_i, t_i <= 10^9
+
+Példa
+Bemenet:
+5 3
+5 3 7 8 5
+4 8 3
+
+Kimenet:
+3
+8
+-1
