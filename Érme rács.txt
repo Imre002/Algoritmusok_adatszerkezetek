@@ -1,0 +1,32 @@
+Van egy n x n rács, amelynek minden négyzete üres vagy érmével. Minden lépésnél eltávolíthatja az összes érmét egy sorban vagy oszlopban.
+Mennyi a minimális lépések száma, ami után a rács üres?
+
+Bemenet
+
+Az első bemeneti sorban egy n egész szám van: a rács mérete. 
+A sorok és oszlopok számozása 1,2,...,n.
+Ezt követően n sor írja le a rácsot. 
+Minden sor n karakterből áll: minden karakter vagy . (üres) vagy o (érme).
+
+Kimenet
+
+Először írjon ki egy k egész számot: a lépések minimális számát. 
+Ezt követően nyomtassunk ki k sort a mozdulatokat leíró.
+Minden sorra először nyomtasson 1-et (sor) vagy 2-t (oszlop), majd egy sor vagy oszlop számát. Bármilyen érvényes megoldást kinyomtathat.
+
+Korlátozások
+
+1 <= n <= 100
+
+Példa
+
+Bemenet:
+3
+..o
+o.o
+...
+
+Kimenet:
+2
+1 2
+2 3

@@ -1,0 +1,22 @@
+Az Ön feladata, hogy megszámolja, hány módon tölthet ki egy n × m-es rácsot 1 × 2 és 2 × 1 lapkákkal.
+
+Bemenet
+
+Az egyetlen bemeneti sorban két n és m egész szám van.
+
+Kimenet
+
+Egy egész szám nyomtatása: a módok száma modulo 10^9+7.
+
+Korlátozások
+
+1 <= n <= 10
+1 <= m <= 1000
+
+Példa
+
+Bemenet:
+4 7
+
+Kimenet:
+781

@@ -1,0 +1,33 @@
+Kaaleppi éppen kirabolt egy bankot, és most a kikötő felé tart. A rendőrség azonban a város egyes utcáinak lezárásával akarja megállítani.
+Minimálisan hány utcát kell lezárni, hogy ne legyen útvonal a bank és a kikötő között?
+
+Bemenet
+
+Az első beviteli sorban két n és m egész szám van: a kereszteződések és az utcák száma. A kereszteződések számozása 1,2,...,n. A bank az 1-es kereszteződésnél, a kikötő pedig az n. kereszteződésnél található.
+Ezt követően m sor írja le az utcákat. Minden vonalnak két a és b egész szám van: az a és b kereszteződések között van egy utca. Minden utca kétirányú, és két kereszteződés között legfeljebb egy utca van.
+
+Kimenet
+
+Először írjon ki egy k egész számot: a bezárandó utcák minimális számát. 
+Ezek után nyomtassunk k sort az utcákat leírva. Bármilyen érvényes megoldást kinyomtathat.
+
+Korlátozások
+
+2 <= n <= 500
+1 <= m <= 1000
+1 <= a,b <= n
+
+Példa
+
+Bemenet:
+4 5
+1 2
+1 3
+2 3
+3 4
+1 4
+
+Kimenet:
+2
+3 4
+1 4
